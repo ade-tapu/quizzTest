@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2de0f357-4bd5-4505-acff-2d667d1a0f22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Repository/AnswerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Repository/QuestionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Repository/QuizzRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Repository/SurveyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Model/Quizz/QuestionModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Model/Quizz/QuestionModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Model/Quizz/QuizzModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Model/Quizz/QuizzModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Model/Quizz/SurveyModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Model/Quizz/SurveyModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +12,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
