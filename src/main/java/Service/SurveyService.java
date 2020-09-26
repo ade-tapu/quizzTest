@@ -10,9 +10,10 @@ public interface SurveyService {
 
     SurveyDto getById (long id);
 
-    Long add(SurveyDto question);
+    Long add(SurveyDto survey);
 
-    Long delete (SurveyDto question);
+    Long delete (SurveyDto survey);
 
-    Long update (SurveyDto question);
+    Long update (SurveyDto survey);
+   // update for git
 }
