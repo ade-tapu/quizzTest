@@ -2,6 +2,7 @@ package com.sda.quizztest.Model.Quizz;
 
 import javax.persistence.*;
 import java.util.Date;
+
 @Entity
 @Table(name = "answer")
 public class AnswerModel {
