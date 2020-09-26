@@ -20,7 +20,27 @@ public class QuestionModel {
     @Column(name = "points")
     private int points;
 
-    private CategoryModel categoryModel;
+    @ManyToOne
+    private QuizzModel quizz;
+
+    @ManyToOne
+    private SurveyModel suvey;
+
+    public SurveyModel getSuvey() {
+        return suvey;
+    }
+
+    public void setSuvey(SurveyModel suvey) {
+        this.suvey = suvey;
+    }
+
+    public QuizzModel getQuizz() {
+        return quizz;
+    }
+
+    public void setQuizz(QuizzModel quizz) {
+        this.quizz = quizz;
+    }
 
     public long getId() {
         return id;
@@ -54,11 +74,4 @@ public class QuestionModel {
         this.points = points;
     }
 
-    public CategoryModel getCategoryModel() {
-        return categoryModel;
-    }
-
-    public void setCategoryModel(CategoryModel categoryModel) {
-        this.categoryModel = categoryModel;
-    }
 }

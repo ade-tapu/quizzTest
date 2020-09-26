@@ -23,6 +23,17 @@ public class AnswerModel {
     @Temporal(TemporalType.TIMESTAMP)
     private Date modified;
 
+    @ManyToOne
+    private QuestionModel question;
+
+    public QuestionModel getQuestion() {
+        return question;
+    }
+
+    public void setQuestion(QuestionModel question) {
+        this.question = question;
+    }
+
     public long getId() {
         return id;
     }

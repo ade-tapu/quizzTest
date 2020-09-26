@@ -25,9 +25,6 @@ public class SurveyModel {
     @JoinTable(name = "survey_question")
     private List<QuestionModel> questionModelList;
 
-    @OneToMany(mappedBy = "survey")
-    @JoinTable(name = "survey_answer")
-    private List<AnswerModel> answerModelList;
 
     public long getId() {
         return id;
@@ -69,11 +66,4 @@ public class SurveyModel {
         this.questionModelList = questionModelList;
     }
 
-    public List<AnswerModel> getAnswerModelList() {
-        return answerModelList;
-    }
-
-    public void setAnswerModelList(List<AnswerModel> answerModelList) {
-        this.answerModelList = answerModelList;
-    }
 }
