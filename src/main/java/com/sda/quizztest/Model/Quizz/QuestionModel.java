@@ -14,7 +14,6 @@ public class QuestionModel {
     private String title;
 
     @OneToMany(mappedBy = "question")
-    @JoinTable(name = "question_answer")
     private List<AnswerModel> answerModelList;
 
     @Column(name = "points")
@@ -24,14 +23,18 @@ public class QuestionModel {
     private QuizzModel quizz;
 
     @ManyToOne
-    private SurveyModel suvey;
+    private SurveyModel survey;
 
-    public SurveyModel getSuvey() {
-        return suvey;
+    public QuestionModel(SurveyModel survey) {
+        this.survey = survey;
     }
 
-    public void setSuvey(SurveyModel suvey) {
-        this.suvey = suvey;
+    public void setSurvey(SurveyModel survey) {
+        this.survey = survey;
+    }
+
+    public SurveyModel getSurvey() {
+        return survey;
     }
 
     public QuizzModel getQuizz() {

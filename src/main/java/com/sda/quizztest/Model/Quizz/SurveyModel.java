@@ -22,7 +22,6 @@ public class SurveyModel {
     private Date created;
 
     @OneToMany(mappedBy = "survey")
-    @JoinTable(name = "survey_question")
     private List<QuestionModel> questionModelList;
 
 

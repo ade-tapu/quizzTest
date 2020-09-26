@@ -9,14 +9,13 @@ public class QuizzModel {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    @Column(name = "survey_title")
-    private String survey_title;
+    @Column(name = "quizz_title")
+    private String quizz_title;
 
     @Column(name = "description")
     private String description;
 
     @OneToMany(mappedBy = "quizz")
-    @JoinTable(name = "quiz_question")
     private List<QuestionModel> questionModelList;
 
 
@@ -29,11 +28,11 @@ public class QuizzModel {
     }
 
     public String getSurvey_title() {
-        return survey_title;
+        return quizz_title;
     }
 
     public void setSurvey_title(String survey_title) {
-        this.survey_title = survey_title;
+        this.quizz_title = survey_title;
     }
 
     public String getDescription() {
