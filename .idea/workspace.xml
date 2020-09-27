@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2de0f357-4bd5-4505-acff-2d667d1a0f22" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/DTO/AnswerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/DTO/AnswerDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/DTO/QuestionDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/DTO/QuestionDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/DTO/QuizzDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/DTO/QuizzDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/DTO/SurveyDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/DTO/SurveyDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +12,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -75,10 +71,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1601187858660">
+    <state x="488" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1601190202927">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601187858660" />
+    <state x="488" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601190202927" />
     <state x="356" y="293" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1600513402354">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
