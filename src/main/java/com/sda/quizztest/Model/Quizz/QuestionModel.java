@@ -29,6 +29,11 @@ public class QuestionModel {
         this.survey = survey;
     }
 
+    //constructor
+    public QuestionModel() {
+
+    }
+
     public void setSurvey(SurveyModel survey) {
         this.survey = survey;
     }

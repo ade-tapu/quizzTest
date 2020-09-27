@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2de0f357-4bd5-4505-acff-2d667d1a0f22" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Service/QuestionServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/DTO/AnswerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/DTO/AnswerDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/DTO/QuestionDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/DTO/QuestionDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/DTO/QuizzDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/DTO/QuizzDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/DTO/SurveyDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/DTO/SurveyDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Model/Quizz/QuestionModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Model/Quizz/QuestionModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +29,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
