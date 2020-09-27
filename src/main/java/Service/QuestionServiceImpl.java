@@ -1,6 +1,7 @@
 package Service;
 
 import com.sda.quizztest.DTO.QuestionDto;
+import com.sda.quizztest.DTO.QuizzDto;
 import com.sda.quizztest.DTO.SurveyDto;
 import com.sda.quizztest.Model.Quizz.QuestionModel;
 import com.sda.quizztest.Repository.QuestionRepository;
@@ -25,11 +26,18 @@ public class QuestionServiceImpl implements QuestionService{
             QuestionDto questionDto = new QuestionDto();
             questionDto.setTitle(question.getTitle());
             questionDto.setPoints(question.getPoints());
+
             SurveyDto surveyDto = new SurveyDto();
             surveyDto.setDescription(surveyDto.getDescription());
             surveyDto.setTitle(surveyDto.getTitle());
             surveyDto.setCreated(surveyDto.getCreated());
             questionDto.setSurvey(surveyDto);
+
+            QuizzDto quizzDto = new QuizzDto();
+            quizzDto.setDescription(quizzDto.getDescription());
+            quizzDto.setQuizz_title(quizzDto.getQuizz_title());
+            quizzDto.setQuestionDtoList(quizzDto.getQuestionDtoList());
+            quizzDto.setUserDto(quizzDto.getUserDto());
 
             questionDtoList.add(questionDto);
         }
