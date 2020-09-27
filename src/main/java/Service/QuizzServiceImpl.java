@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class QuizzServiceImpl implements QuizzService {
     @Autowired
@@ -49,12 +50,27 @@ public class QuizzServiceImpl implements QuizzService {
 
     @Override
     public QuizzDto getById(long id) {
-        return null;
+        Optional<QuizzModel> quizzModelOptional = quizzRepository.findById(id);
+        if (quizzModelOptional.isPresent()) {
+            QuizzModel quizzModel = quizzModelOptional.get();
+            QuizzDto quizzDto = new QuizzDto();
+            quizzDto.setDescription(quizzModel.getDescription());
+            quizzDto.setQuizz_title(quizzModel.getQuizz_title());
+
+            return quizzDto;
+        } return null;
     }
 
     @Override
     public Long add(QuizzDto quizz) {
-        return null;
+        QuizzModel quizzModel = new QuizzModel();
+
+        quizzModel.setDescription(quizz.getDescription());
+        quizzModel.setQuizz_title(quizz.getQuizz_title());
+
+        quizzRepository.save(quizzModel);
+
+        return quizzModel.getId();
     }
 
     @Override
