@@ -10,26 +10,10 @@ import java.util.List;
 public class QuestionDto {
     private long id;
     private String title;
-    private List<AnswerModel> answerModelList;
+    private List<AnswerDto> answerDtoList;
     private int points;
-    private QuizzModel quizz;
-    private SurveyModel survey;
-
-    public void setSurvey(SurveyModel survey) {
-        this.survey = survey;
-    }
-
-    public SurveyModel getSurvey() {
-        return survey;
-    }
-
-    public QuizzModel getQuizz() {
-        return quizz;
-    }
-
-    public void setQuizz(QuizzModel quizz) {
-        this.quizz = quizz;
-    }
+    private QuizzDto quizz;
+    private SurveyDto survey;
 
     public long getId() {
         return id;
@@ -47,12 +31,12 @@ public class QuestionDto {
         this.title = title;
     }
 
-    public List<AnswerModel> getAnswerModelList() {
-        return answerModelList;
+    public List<AnswerDto> getAnswerDtoList() {
+        return answerDtoList;
     }
 
-    public void setAnswerModelList(List<AnswerModel> answerModelList) {
-        this.answerModelList = answerModelList;
+    public void setAnswerDtoList(List<AnswerDto> answerDtoList) {
+        this.answerDtoList = answerDtoList;
     }
 
     public int getPoints() {
@@ -63,6 +47,21 @@ public class QuestionDto {
         this.points = points;
     }
 
+    public QuizzDto getQuizz() {
+        return quizz;
+    }
+
+    public void setQuizz(QuizzDto quizz) {
+        this.quizz = quizz;
+    }
+
+    public SurveyDto getSurvey() {
+        return survey;
+    }
+
+    public void setSurvey(SurveyDto survey) {
+        this.survey = survey;
+    }
 }
 
 

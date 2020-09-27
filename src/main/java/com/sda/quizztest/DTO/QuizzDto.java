@@ -9,7 +9,7 @@ public class QuizzDto {
     private long id;
     private String quizz_title;
     private String description;
-    private List<QuestionModel> questionModelList;
+    private List<QuestionDto> questionDtoList;
 
 
     public long getId() {
@@ -36,11 +36,19 @@ public class QuizzDto {
         this.description = description;
     }
 
-    public List<QuestionModel> getQuestionModelList() {
-        return questionModelList;
+    public String getQuizz_title() {
+        return quizz_title;
     }
 
-    public void setQuestionModelList(List<QuestionModel> questionModelList) {
-        this.questionModelList = questionModelList;
+    public void setQuizz_title(String quizz_title) {
+        this.quizz_title = quizz_title;
+    }
+
+    public List<QuestionDto> getQuestionDtoList() {
+        return questionDtoList;
+    }
+
+    public void setQuestionDtoList(List<QuestionDto> questionDtoList) {
+        this.questionDtoList = questionDtoList;
     }
 }

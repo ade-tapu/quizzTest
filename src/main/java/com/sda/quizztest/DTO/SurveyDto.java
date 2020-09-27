@@ -9,7 +9,7 @@ public class SurveyDto {
     private String description;
     private String title;
     private Date created;
-    private List<QuestionModel> questionModelList;
+    private List<QuestionDto> questionDtoList;
 
 
     public long getId() {
@@ -44,12 +44,12 @@ public class SurveyDto {
         this.created = created;
     }
 
-    public List<QuestionModel> getQuestionModelList() {
-        return questionModelList;
+    public List<QuestionDto> getQuestionDtoList() {
+        return questionDtoList;
     }
 
-    public void setQuestionModelList(List<QuestionModel> questionModelList) {
-        this.questionModelList = questionModelList;
+    public void setQuestionDtoList(List<QuestionDto> questionDtoList) {
+        this.questionDtoList = questionDtoList;
     }
 }
 

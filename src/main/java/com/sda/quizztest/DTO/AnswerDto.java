@@ -11,13 +11,13 @@ public class AnswerDto {
     private Boolean isCorrectAnswer;
     private Date created;
     private Date modified;
-    private QuestionModel question;
+    private QuestionDto question;
 
-    public QuestionModel getQuestion() {
+    public QuestionDto getQuestion() {
         return question;
     }
 
-    public void setQuestion(QuestionModel question) {
+    public void setQuestion(QuestionDto question) {
         this.question = question;
     }
 
