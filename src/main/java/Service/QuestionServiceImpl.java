@@ -1,6 +1,7 @@
 package Service;
 
 import com.sda.quizztest.DTO.QuestionDto;
+import com.sda.quizztest.DTO.SurveyDto;
 import com.sda.quizztest.Model.Quizz.QuestionModel;
 import com.sda.quizztest.Repository.QuestionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,6 +25,11 @@ public class QuestionServiceImpl implements QuestionService{
             QuestionDto questionDto = new QuestionDto();
             questionDto.setTitle(question.getTitle());
             questionDto.setPoints(question.getPoints());
+            SurveyDto surveyDto = new SurveyDto();
+            surveyDto.setDescription(surveyDto.getDescription());
+            surveyDto.setTitle(surveyDto.getTitle());
+            surveyDto.setCreated(surveyDto.getCreated());
+            questionDto.setSurvey(surveyDto);
 
             questionDtoList.add(questionDto);
         }
@@ -37,10 +43,10 @@ public class QuestionServiceImpl implements QuestionService{
 
     @Override
     public Long add(QuestionDto questionDto) {
-        QuestionModel questionModel = new QuestionModel();
+      //  QuestionModel questionModel = new QuestionModel();
 
-        questionModel.setTitle(questionDto.getTitle());
-        questionModel.setPoints(questionDto.getPoints());
+    //    questionModel.setTitle(questionDto.getTitle());
+     //   questionModel.setPoints(questionDto.getPoints());
 
 
         return null;

@@ -15,6 +15,14 @@ public class QuestionDto {
     private QuizzDto quizz;
     private SurveyDto survey;
 
+    public SurveyDto getSurvey() {
+        return survey;
+    }
+
+    public void setSurvey(SurveyDto survey) {
+        this.survey = survey;
+    }
+
     public long getId() {
         return id;
     }
@@ -55,13 +63,6 @@ public class QuestionDto {
         this.quizz = quizz;
     }
 
-    public SurveyDto getSurvey() {
-        return survey;
-    }
-
-    public void setSurvey(SurveyDto survey) {
-        this.survey = survey;
-    }
 }
 
 

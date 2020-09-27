@@ -1,5 +1,7 @@
 package com.sda.quizztest.Model.Quizz;
 
+import com.sda.quizztest.DTO.SurveyDto;
+
 import javax.persistence.*;
 import java.util.List;
 
@@ -30,9 +32,9 @@ public class QuestionModel {
     }
 
     //constructor
-    public QuestionModel() {
+   // public QuestionModel() {
 
-    }
+   // }
 
     public void setSurvey(SurveyModel survey) {
         this.survey = survey;
