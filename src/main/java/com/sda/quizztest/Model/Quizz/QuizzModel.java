@@ -1,7 +1,10 @@
 package com.sda.quizztest.Model.Quizz;
 
+import com.sda.quizztest.Model.Login.UserModel;
+
 import javax.persistence.*;
 import java.util.List;
+
 @Entity
 @Table(name = "quizz_model")
 public class QuizzModel {
@@ -18,6 +21,25 @@ public class QuizzModel {
     @OneToMany(mappedBy = "quizz")
     private List<QuestionModel> questionModelList;
 
+    @OneToOne
+    @JoinColumn(name = "quizz_id")
+    private UserModel userModel;
+
+    public String getQuizz_title() {
+        return quizz_title;
+    }
+
+    public void setQuizz_title(String quizz_title) {
+        this.quizz_title = quizz_title;
+    }
+
+    public UserModel getUserModel() {
+        return userModel;
+    }
+
+    public void setUserModel(UserModel userModel) {
+        this.userModel = userModel;
+    }
 
     public long getId() {
         return id;
@@ -25,14 +47,6 @@ public class QuizzModel {
 
     public void setId(long id) {
         this.id = id;
-    }
-
-    public String getSurvey_title() {
-        return quizz_title;
-    }
-
-    public void setSurvey_title(String survey_title) {
-        this.quizz_title = survey_title;
     }
 
     public String getDescription() {

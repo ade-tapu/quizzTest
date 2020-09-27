@@ -10,7 +10,15 @@ public class QuizzDto {
     private String quizz_title;
     private String description;
     private List<QuestionDto> questionDtoList;
+    private UserDto userDto;
 
+    public UserDto getUserDto() {
+        return userDto;
+    }
+
+    public void setUserDto(UserDto userDto) {
+        this.userDto = userDto;
+    }
 
     public long getId() {
         return id;
