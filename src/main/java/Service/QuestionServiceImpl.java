@@ -47,18 +47,18 @@ public class QuestionServiceImpl implements QuestionService {
 
     @Override
     public QuestionDto getById(long id) {
-//        Optional <QuestionModel> questionModelOptional=questionRepository.findById(id);
-//
-//        if(questionModelOptional.isPresent()){
-//        QuestionModel questionModel = new questionModelOptional.get();
-//
-//        QuestionDto questionDto = new QuestionDto();
-//        questionDto.setTitle(questionModel.getTitle());
-//        questionDto.setPoints(questionModel.getPoints());
-//
-//
-//
-//        return questionDto;}
+        Optional <QuestionModel> questionModelOptional=questionRepository.findById(id);
+
+        if(questionModelOptional.isPresent()){
+        QuestionModel questionModel = questionModelOptional.get();
+
+        QuestionDto questionDto = new QuestionDto();
+        questionDto.setTitle(questionModel.getTitle());
+        questionDto.setPoints(questionModel.getPoints());
+
+
+
+        return questionDto;}
 
         return null;
     }
