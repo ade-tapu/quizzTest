@@ -32,9 +32,9 @@ public class QuestionModel {
     }
 
     //constructor
-   // public QuestionModel() {
+    public QuestionModel() {
 
-   // }
+    }
 
     public void setSurvey(SurveyModel survey) {
         this.survey = survey;
