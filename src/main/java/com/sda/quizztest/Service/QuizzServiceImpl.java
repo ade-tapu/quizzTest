@@ -8,11 +8,13 @@ import com.sda.quizztest.Model.Quizz.QuestionModel;
 import com.sda.quizztest.Model.Quizz.QuizzModel;
 import com.sda.quizztest.Repository.QuizzRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class QuizzServiceImpl implements QuizzService {
     @Autowired
     QuizzRepository quizzRepository;
