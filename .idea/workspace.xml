@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2de0f357-4bd5-4505-acff-2d667d1a0f22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Service/QuestionServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
-=======
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Model/Quizz/QuestionModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Model/Quizz/QuestionModel.java" afterDir="false" />
->>>>>>> 21d59c402543f82c6255dc43b7cadfeb06fb8035
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Controller/QuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Controller/QuizzController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Controller/QuizzController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/AnswerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/AnswerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/QuestionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/QuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/QuestionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/QuizzService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/QuizzService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/QuizzServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/QuizzServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/SurveyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/SurveyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,38 +82,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1601190202927">
+    <state x="488" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1601712960695">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601190202927" />
-    <state x="356" y="293" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1600513402354">
+    <state x="488" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601712960695" />
+    <state x="356" y="293" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1601706024094">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="356" y="293" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600513402354" />
-    <state x="484" y="253" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1600513406735">
+    <state x="356" y="293" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601706024094" />
+    <state x="484" y="253" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1601706028401">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="484" y="253" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600513406735" />
+    <state x="484" y="253" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601706028401" />
     <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1601118054420">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601118054420" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1601118102885">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1601710417240">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601118102885" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1601118102885">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601710417240" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1601710417240">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601118102885" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1601118102885">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601710417240" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1601710417240">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601118102885" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1601118102885">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601710417240" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1601710417240">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601118102885" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601710417240" />
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1601101032400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

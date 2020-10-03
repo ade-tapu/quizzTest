@@ -1,6 +1,6 @@
 package com.sda.quizztest.Controller;
 
-import Service.QuizzServiceImpl;
+import com.sda.quizztest.Service.QuizzServiceImpl;
 import com.sda.quizztest.DTO.QuizzDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -33,5 +33,12 @@ public class QuizzController {
         QuizzDto quizzDto = quizzService.getById(id);
         return new ResponseEntity(quizzDto,HttpStatus.OK);
 
+    }
+
+    @PostMapping("addQuestiontoQuizz/{idQuizz}/{idQuestion}")
+    public ResponseEntity addQuestionToQuizz(@PathVariable("idQuizz")Long idQuizz,@PathVariable("idQuestion")Long idQuestion){
+      //  quizzService.addQuestionToQuizz(idQuizz,idQuestion);
+
+        return new ResponseEntity(HttpStatus.OK);
     }
 }

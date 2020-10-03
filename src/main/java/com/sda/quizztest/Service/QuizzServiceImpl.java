@@ -1,11 +1,11 @@
-package Service;
+package com.sda.quizztest.Service;
 
 import com.sda.quizztest.DTO.QuestionDto;
 import com.sda.quizztest.DTO.QuizzDto;
 import com.sda.quizztest.DTO.UserDto;
-import com.sda.quizztest.Model.Login.UserModel;
 import com.sda.quizztest.Model.Quizz.QuestionModel;
 import com.sda.quizztest.Model.Quizz.QuizzModel;
+import com.sda.quizztest.Repository.QuestionRepository;
 import com.sda.quizztest.Repository.QuizzRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -18,6 +18,9 @@ import java.util.Optional;
 public class QuizzServiceImpl implements QuizzService {
     @Autowired
     QuizzRepository quizzRepository;
+
+    @Autowired
+    QuestionRepository questionRepository;
 
     @Override
     public List<QuizzDto> getAll() {
@@ -60,7 +63,8 @@ public class QuizzServiceImpl implements QuizzService {
             quizzDto.setQuizz_title(quizzModel.getQuizz_title());
 
             return quizzDto;
-        } return null;
+        }
+        return null;
     }
 
     @Override
@@ -85,3 +89,28 @@ public class QuizzServiceImpl implements QuizzService {
         return null;
     }
 }
+
+  /*  public void addQuestionToQuizz(Long idQuizz, Long idQuestion) {
+        Optional<QuizzModel> quizzModelOptional = quizzRepository.findById(idQuizz);
+        if (quizzModelOptional.isPresent()) {
+            QuizzModel quizzModel = quizzModelOptional.get();
+            QuizzDto quizzDto = new QuizzDto();
+            quizzDto.setDescription(quizzModel.getDescription());
+            quizzDto.setQuizz_title(quizzModel.getQuizz_title());
+
+            Optional<QuestionModel> questionModelOptional = questionRepository.findById(idQuestion);
+            if (questionModelOptional.isPresent()) {
+                QuestionModel questionModel = questionModelOptional.get();
+                QuestionDto questionDto = new QuestionDto();
+                questionDto.setTitle(questionModel.getTitle());
+                questionDto.setPoints(questionModel.getPoints());
+
+
+                quizzModel.getQuestionModelList().add(questionModel);
+                quizzRepository.save(quizzModel);
+            }
+        }
+    }
+
+   */
+

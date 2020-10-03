@@ -1,6 +1,5 @@
-package Service;
+package com.sda.quizztest.Service;
 
-import com.sda.quizztest.DTO.QuestionDto;
 import com.sda.quizztest.DTO.SurveyDto;
 
 import java.util.List;

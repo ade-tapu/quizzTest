@@ -1,8 +1,6 @@
-package Service;
+package com.sda.quizztest.Service;
 
 import com.sda.quizztest.DTO.QuestionDto;
-import com.sda.quizztest.DTO.QuizzDto;
-import com.sda.quizztest.DTO.SurveyDto;
 import com.sda.quizztest.Model.Quizz.QuestionModel;
 import com.sda.quizztest.Repository.QuestionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
