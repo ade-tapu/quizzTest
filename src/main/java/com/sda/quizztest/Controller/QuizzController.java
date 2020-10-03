@@ -37,7 +37,7 @@ public class QuizzController {
 
     @PostMapping("addQuestiontoQuizz/{idQuizz}/{idQuestion}")
     public ResponseEntity addQuestionToQuizz(@PathVariable("idQuizz")Long idQuizz,@PathVariable("idQuestion")Long idQuestion){
-      //  quizzService.addQuestionToQuizz(idQuizz,idQuestion);
+       quizzService.addQuestionToQuizz(idQuizz,idQuestion);
 
         return new ResponseEntity(HttpStatus.OK);
     }

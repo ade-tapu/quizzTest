@@ -88,9 +88,9 @@ public class QuizzServiceImpl implements QuizzService {
     public Long update(QuizzDto quizz) {
         return null;
     }
-}
 
-  /*  public void addQuestionToQuizz(Long idQuizz, Long idQuestion) {
+
+   public void addQuestionToQuizz(Long idQuizz, Long idQuestion) {
         Optional<QuizzModel> quizzModelOptional = quizzRepository.findById(idQuizz);
         if (quizzModelOptional.isPresent()) {
             QuizzModel quizzModel = quizzModelOptional.get();
@@ -100,17 +100,13 @@ public class QuizzServiceImpl implements QuizzService {
 
             Optional<QuestionModel> questionModelOptional = questionRepository.findById(idQuestion);
             if (questionModelOptional.isPresent()) {
-                QuestionModel questionModel = questionModelOptional.get();
-                QuestionDto questionDto = new QuestionDto();
-                questionDto.setTitle(questionModel.getTitle());
-                questionDto.setPoints(questionModel.getPoints());
+                quizzModel.getQuestionModelList().add(questionModelOptional.get());
 
-
-                quizzModel.getQuestionModelList().add(questionModel);
-                quizzRepository.save(quizzModel);
             }
+            quizzRepository.save(quizzModel);
         }
     }
+}
 
-   */
+
 

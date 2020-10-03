@@ -1,6 +1,8 @@
 package com.sda.quizztest.Service;
 
+import com.sda.quizztest.DTO.AnswerDto;
 import com.sda.quizztest.DTO.QuestionDto;
+import com.sda.quizztest.Model.Quizz.AnswerModel;
 import com.sda.quizztest.Model.Quizz.QuestionModel;
 import com.sda.quizztest.Repository.QuestionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -67,6 +69,22 @@ public class QuestionServiceImpl implements QuestionService {
 
         questionModel.setTitle(questionDto.getTitle());
         questionModel.setPoints(questionDto.getPoints());
+
+        List <AnswerDto> answerDtoList = questionDto.getAnswerDtoList();
+        List <AnswerModel> answerModelList = new ArrayList<>();
+        for (AnswerDto answerDto:answerDtoList){
+            AnswerModel answerModel = new AnswerModel();
+            answerModel.setAnswerDescription(answerDto.getAnswerDescription());
+            answerModel.setCorrectAnswer(answerDto.getCorrectAnswer());
+
+            QuestionModel questionModelex = new QuestionModel();
+            questionModelex.setPoints(questionDto.getPoints());
+            questionModelex.setTitle(questionDto.getTitle());
+            answerModel.setQuestion(questionModelex);
+            //answerModel.setQuestion(answerDto.getQuestion());
+            answerModelList.add(answerModel);
+        }
+        questionModel.setAnswerModelList(answerModelList);
 
         questionRepository.save(questionModel);
         return questionModel.getId();

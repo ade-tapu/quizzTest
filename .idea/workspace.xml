@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2de0f357-4bd5-4505-acff-2d667d1a0f22" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Controller/QuestionController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Controller/QuizzController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Controller/QuizzController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Model/Quizz/QuestionModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Model/Quizz/QuestionModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/AnswerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/AnswerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/QuestionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/QuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/QuestionServiceImpl.java" afterDir="false" />
@@ -15,6 +15,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/QuizzServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/QuizzServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/SurveyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/SurveyService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/quizztest/Service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -98,22 +102,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601118054420" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1601710417240">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1601718823411">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601710417240" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1601710417240">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601718823411" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1601718823410">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601710417240" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1601710417240">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601718823410" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1601718823410">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601710417240" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1601710417240">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601718823410" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1601718823411">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601710417240" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601718823411" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1601718731837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601718731837" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1601718731837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601718731837" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1601718731837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601718731837" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1601718731837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601718731837" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1601708594377">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601708594377" />
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1601101032400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
