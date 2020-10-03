@@ -1,6 +1,6 @@
 package com.sda.quizztest.Controller;
 
-import Service.QuizzServiceImpl;
+import com.sda.quizztest.Service.QuizzServiceImpl;
 import com.sda.quizztest.DTO.QuizzDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

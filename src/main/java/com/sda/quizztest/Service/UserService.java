@@ -1,4 +1,4 @@
-package Service;
+package com.sda.quizztest.Service;
 
 import com.sda.quizztest.DTO.QuizzDto;
 import com.sda.quizztest.DTO.UserDto;
